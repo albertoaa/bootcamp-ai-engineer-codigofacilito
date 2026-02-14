@@ -7,19 +7,19 @@ Base project for the Código Facilito AI Engineer Bootcamp. Integrates with Gemi
 ```
 bootcamp-ai-engineer-codigofacilito/
 ├── ai-engineer-bootcamp/
-│   ├── main.py                 # CLI demo: chat with LLM, shows usage metrics
-│   ├── pyproject.toml          # Project config & dependencies
-│   ├── requirements.txt        # Pip dependencies
-│   ├── .env.example            # Template for environment variables
+│   ├── main.py                     # CLI demo: chat with LLM, shows usage metrics
+│   ├── pyproject.toml              # Project config & dependencies
+│   ├── requirements.txt            # Pip dependencies
+│   ├── .env.example                # Template for environment variables
 │   ├── core/
-│   │   ├── config.py           # Loads settings from .env
-│   │   ├── llm_client.py       # Gemini LLM client (chat, usage)
-│   │   ├── logger.py          # Logging setup
-│   │   └── tokenlab.py         # Token counting, latency, streaming, budget
+│   │   ├── config.py               # Loads settings from .env
+│   │   ├── llm_client.py           # Gemini LLM client (chat, usage)
+│   │   ├── logger.py               # Logging setup
+│   │   └── tokenlab.py             # Token counting, latency, streaming, budget
 │   └── scripts/
 │       ├── streamlit_tokenlab.py   # Streamlit app: streaming vs non-streaming
-│       └── practice_tokenlab.py   # CLI practice script (~30 min)
-└── outputs/                    # Created at runtime (CSV, charts)
+│       └── practice_tokenlab.py    # CLI practice script (~30 min)
+└── outputs/                        # Created at runtime (CSV, charts)
 ```
 
 ## Setup
